@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ASPMVCSampleBlog.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,15 +17,11 @@ namespace ASPMVCSampleBlog.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            var model = new AboutModel();
+            model.AppTitle = "ASP.NET MVC Sample Blog";
+            model.FrameworkVersion = "4.6";
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(model);
         }
     }
 }
