@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPMVCSampleBlog", "ASPMVCSampleBlog\ASPMVCSampleBlog.csproj", "{9CD6451E-1C04-4E00-96ED-7798DCB4665A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPMVCSampleBlog.Tests", "ASPMVCSampleBlog.Tests\ASPMVCSampleBlog.Tests.csproj", "{CD214511-3508-4EB1-9485-30A99CC3D521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CD6451E-1C04-4E00-96ED-7798DCB4665A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD6451E-1C04-4E00-96ED-7798DCB4665A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD6451E-1C04-4E00-96ED-7798DCB4665A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD6451E-1C04-4E00-96ED-7798DCB4665A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD214511-3508-4EB1-9485-30A99CC3D521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD214511-3508-4EB1-9485-30A99CC3D521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD214511-3508-4EB1-9485-30A99CC3D521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD214511-3508-4EB1-9485-30A99CC3D521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E46CA5D6-07B4-45B8-BA70-9104DC6DD090}
+	EndGlobalSection
+EndGlobal
